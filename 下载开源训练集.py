@@ -1,4 +1,4 @@
-#先安装datasets库，以便连接Hugging Face Datasets Hub
+#先安装datasets库，以便连接Hugging Face Datasets Hub。
 #pip install datasets
 
 import os
