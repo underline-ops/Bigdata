@@ -78,13 +78,13 @@ def main():
     # 在这里设置参数
     dataset_name = "copa"  # Hugging face 的训练集名称
     config_name = None  # 如果有配置名称，则设置，否则为 None
-    output_dir = "downloaded_datasets/copa_data"  # 设置输出目录
+    output_dir = "downloaded_datasets/copa_data"  # 设置输出目录，注意按照内容放到不同目录内
     field_mapping = {
         "premise": "premise",
         "question": "question",
         "choice1": "choice1",
         "choice2": "choice2",
-        "correct_answer": "label"  # 根据数据集字段调整
+        "correct_answer": "label"  # 根据实际数据集字段调整
     }
 
     # 调用下载和保存函数
